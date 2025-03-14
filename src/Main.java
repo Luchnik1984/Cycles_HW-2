@@ -96,15 +96,15 @@ public class Main {
                 System.out.println("Вы ввели некорректное число дней, попробуйте ещё раз ");
             }
         }
-        for (int dayNumber=firstFriday; dayNumber<=totalDaysInMonth;dayNumber=dayNumber+7){
-            System.out.println("Сегодня пятница, "+dayNumber+"-е число. Необходимо подготовить отчёт");
+        for (int dayNumber = firstFriday; dayNumber <= totalDaysInMonth; dayNumber = dayNumber + 7) {
+            System.out.println("Сегодня пятница, " + dayNumber + "-е число. Необходимо подготовить отчёт");
         }
         // Задача 8.
         System.out.println("\nЗадача 8.");
         System.out.print("\nВведите текущий год : ");
         int currentYear = input.nextInt();
-        for (int cometYear = 0;cometYear<=(currentYear+100); cometYear=cometYear+79){
-            if (cometYear>= (currentYear-200)) {
+        for (int cometYear = 0; cometYear <= (currentYear + 100); cometYear = cometYear + 79) {
+            if (cometYear >= (currentYear - 200)) {
                 System.out.println(cometYear);
             }
         }
